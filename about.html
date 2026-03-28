@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Projet Web — À propos</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f5f5f5; color: #333; }
+    header { background: #2c3e50; color: white; padding: 2rem; text-align: center; }
+    header h1 { font-size: 2rem; }
+    header p { margin-top: 0.5rem; font-size: 1rem; opacity: 0.8; }
+    nav { background: #34495e; display: flex; justify-content: center; gap: 2rem; padding: 1rem; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 800px; margin: 3rem auto; padding: 0 1rem; }
+    .card { background: white; border-radius: 8px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .card h2 { color: #2c3e50; margin-bottom: 1rem; }
+    .card p { line-height: 1.7; margin-bottom: 1rem; }
+    footer { text-align: center; padding: 2rem; color: #888; font-size: 0.9rem; margin-top: 3rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mon Projet Web</h1>
+    <p>Un site web collaboratif développé avec Git & GitHub</p>
+  </header>
+ 
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">À propos</a>
+  </nav>
+ 
+  <main>
+    <section class="card">
+      <h2>À propos du projet 📖</h2>
+      <p>
+        Ce projet a été réalisé dans le cadre du TP N°2 sur les workflows Git collaboratifs.
+        Il met en pratique la gestion de branches, les Pull Requests et la résolution de conflits.
+      </p>
+      <p>
+        Développé par deux développeurs travaillant en parallèle sur des branches
+        <code>feature/</code> indépendantes, puis intégrées dans <code>main</code>
+        via des Pull Requests documentées et approuvées.
+      </p>
+    </section>
+  </main>
+ 
+  <footer>
+    <p>&copy; 2026 Mon Projet Web — TP Git &amp; GitHub</p>
+  </footer>
+</body>
+</html>
