@@ -1,2 +1,2 @@
-# TP2GIT
-## Description du projet — Version Dev B : application web collaborative
+# TP2
+## Description du projet — Site vitrine moderne et application web collaborative
