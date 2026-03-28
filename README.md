@@ -1,2 +1,2 @@
-# TP2GIT
-## Description du projet — Version Dev A : site vitrine moderne
+# TP2
+## Description du projet — Site vitrine moderne et application web collaborative
